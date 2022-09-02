@@ -1,14 +1,22 @@
-<h1>Mine words in a text file</h1>
+# Mine words in a text file
 
-The goal of this project is:
-Take a file with words,
-Add the words into a list,
-and count their occurrence in the list.
+Print to screen all the words in a targeted file, sorted from most to least frequent.
 
+
+
+
+#### Example
+By running: wordMine README.md
+
+prints to console: Counter({'file':5, 'words':4, 'text':4, 'wordmine':2,...})
+
+Filters out boring words like, 'the', 'when'...
+
+### Why:
 By analyzing the frequencies,
 we can see popular words.
 This can be used by many,
-either increasing vocab in
+to increase vocab in
 a new language or for
 skimming information.
 
@@ -16,18 +24,37 @@ If one understands all of the unique words,
 hypothetically you should be able to have
 a superficial understanding of the text.
 
-<h3>Possible Improvements</h3>
-There are two methods if you want super
-optimization, one for small and one for large. 
-And there should be an option for 
-"the noun".
 
-0) Open & convert from pdf to txt
-1) Parse the text file (TICK)
-	1.5) Clean up the text file (TICK)
-2) Add each word to a list (TICK)
-3) counts  = collections.Counter(wordlist) returns the frequencys (TICK)
+### How it works (currently)
 
-Still a slight bug with some symbols.
-Im sure it could use less looping.
-Pretty sure the badchars list doesn't work.
+1. Parse the text file
+
+2. Clean up the text file
+
+3. Add each word to a list
+
+4. print(collections.Counter(wordlist)) returns the freqs
+
+
+### Possible Improvements
+1. Still a bug with special symbols being included.
+
+2. Im sure it could use less looping.
+
+3. PDFs don't work
+
+### How to use
+1. Clone the git repository into a folder of your choice.
+
+2. chmod +x wordMine.sh
+
+3. Enter your favourite editor to this file: 'emacs ~/.bashrc'
+
+4. At the bottom of the file, put the path to where you cloned:
+   
+   __alias wordMine='~/git/wordMine/wordMine.sh'__
+
+
+Now run 'wordMine <anyFile.txt>'
+
+Good job. 
