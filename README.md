@@ -1,11 +1,9 @@
 # Mine words in a text file
 
+### What it do?
 Print to screen all the words in a targeted file, sorted from most to least frequent.
 
-
-
-
-#### Example
+### Example:
 By running: wordMine README.md
 
 prints to console: Counter({'file':5, 'words':4, 'text':4, 'wordmine':2,...})
@@ -25,7 +23,7 @@ hypothetically you should be able to have
 a superficial understanding of the text.
 
 
-### How it works (currently)
+### How it works: (currently)
 
 1. Parse the text file
 
@@ -54,7 +52,8 @@ a superficial understanding of the text.
    
    __alias wordMine='~/git/wordMine/wordMine.sh'__
 
+   (with the 's)
 
-Now run 'wordMine <anyFile.txt>'
+Now run:
 
-Good job. 
+wordMine <anyFile.txt>
