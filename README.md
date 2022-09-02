@@ -54,6 +54,8 @@ a superficial understanding of the text.
 
    (with the 's)
 
+5. In the terminal: source ~/.bashrc
+
 Now run:
 
 wordMine <anyFile.txt>
