@@ -9,7 +9,7 @@ def MyCode(filename):
     goodwords = 0
     allwords = 0
     badchars = [',','.',':',';','!',"'",'"', '_', '#','<','>']
-    commonEngwords = ['','the', 'a', 'in','of','this','is','if','or','and','with','into','their', 'be', 'you','should', 'to', 'for','it', 'can', 'how', 'your', 'when', 'by']
+    commonEngwords = ['the', 'a', 'in','of','this', 'that', 'then', 'is','if','or','and','with','into','their', 'we', 'are', 'be', 'you','should', 'to', 'for','it', 'can', 'how', 'your', 'when', 'by', 'we', 'that', 'are', 'as', 'an', 'on', 'have', 'will', 'not', 'would', 'by', 'at', 'can', 'which', 'but',  'there', 'were', 'about', 'also', 'such', 'was', 'been', 'seen', 'us']
     
     for line in filename.readlines():
 
