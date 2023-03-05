@@ -1,10 +1,10 @@
 # Mine words in a text file
 
 ### What?
-Print to screen all the words in a targeted file, sorted from most to least frequent.
+Print all the words in a targeted file, sorted from most to least frequent.
 
 ### Example:
-By running: wordMine README.md
+`wordMine README.md`
 
 prints to console: Counter({'file':5, 'words':4, 'text':4, 'wordmine':2,...})
 
